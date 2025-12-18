@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Services - Bright Minds Tutoring{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Our Tutoring Services</h1>
+        <p>Comprehensive academic support across a wide range of subjects</p>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Mathematics</h3>
+                <ul>
+                    <li>Elementary Math</li>
+                    <li>Algebra I & II</li>
+                    <li>Geometry</li>
+                    <li>Trigonometry</li>
+                    <li>Pre-Calculus</li>
+                    <li>Calculus</li>
+                    <li>Statistics</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>Science</h3>
+                <ul>
+                    <li>Biology</li>
+                    <li>Chemistry</li>
+                    <li>Physics</li>
+                    <li>Environmental Science</li>
+                    <li>Anatomy & Physiology</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>English & Language Arts</h3>
+                <ul>
+                    <li>Reading Comprehension</li>
+                    <li>Writing Skills</li>
+                    <li>Grammar & Vocabulary</li>
+                    <li>Literature Analysis</li>
+                    <li>Essay Writing</li>
+                    <li>Creative Writing</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>Social Studies</h3>
+                <ul>
+                    <li>History (US & World)</li>
+                    <li>Geography</li>
+                    <li>Civics & Government</li>
+                    <li>Economics</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="services-cta">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact us today to discuss your tutoring needs and schedule a consultation.</p>
+            <a href="{{ url_for('contact') }}" class="btn btn-primary">Contact Us</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
