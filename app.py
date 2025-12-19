@@ -11,6 +11,10 @@ def home():
 def services():
     return render_template("services.html")
 
+@app.route("/reviews")
+def reviews():
+    return render_template("reviews.html")
+
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":

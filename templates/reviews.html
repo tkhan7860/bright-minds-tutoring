@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Reviews - BrightMind Tutoring{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Google Reviews</h1>
+        <p>See what our students and parents are saying about BrightMind Tutoring</p>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <div class="reviews-content">
+            <p class="reviews-intro">
+                We're proud of the positive impact we've made on our students' academic journeys. 
+                Read what families are saying about their experience with BrightMind Tutoring.
+            </p>
+            
+            <div class="review-actions">
+                <div class="review-action-card">
+                    <h3>Leave a Review</h3>
+                    <p>Share your experience with BrightMind Tutoring on Google</p>
+                    <a href="https://www.google.com/maps/place/?q=BrightMind+Tutoring+Ajax+Ontario" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+                        Write a Google Review
+                    </a>
+                    <p class="review-note">Click to find us on Google Maps and leave your review</p>
+                </div>
+                
+                <div class="review-action-card">
+                    <h3>Find Us on Google</h3>
+                    <p>Search for BrightMind Tutoring in Ajax, Ontario</p>
+                    <a href="https://www.google.com/search?q=BrightMind+Tutoring+Ajax+Ontario+reviews" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+                        View Reviews & Business Profile
+                    </a>
+                    <p class="review-note">See our business profile and existing reviews</p>
+                </div>
+            </div>
+
+            <div class="google-reviews-widget">
+                <h2>Customer Reviews</h2>
+                <p>See what our students and parents are saying:</p>
+                
+                <!-- Google Reviews Widget - Replace the place_id with your actual Google Business Profile ID -->
+                <div class="reviews-embed-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.0!2d-79.0163!3d43.8501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDMuODUwMSwgLTc5LjAxNjM!5e0!3m2!1sen!2sca!4v1234567890!5m2!1sen!2sca" 
+                        width="100%" 
+                        height="600" 
+                        style="border:0; border-radius: 8px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                
+                <div class="reviews-instructions">
+                    <h3>How to Leave a Review:</h3>
+                    <ol>
+                        <li>Click the "Write a Google Review" button above, or</li>
+                        <li>Search for "BrightMind Tutoring" on Google Maps</li>
+                        <li>Find our business listing</li>
+                        <li>Click on "Write a review"</li>
+                        <li>Share your experience and rate us!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+

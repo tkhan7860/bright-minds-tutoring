@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Bright Minds Tutoring{% endblock %}</title>
+    <title>{% block title %}BrightMind Tutoring{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -11,11 +11,12 @@
         <nav class="navbar">
             <div class="container">
                 <div class="nav-brand">
-                    <a href="{{ url_for('home') }}">Bright Minds Tutoring</a>
+                    <a href="{{ url_for('home') }}">BrightMind Tutoring</a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="{{ url_for('home') }}">Home</a></li>
                     <li><a href="{{ url_for('services') }}">Services</a></li>
+                    <li><a href="{{ url_for('reviews') }}">Reviews</a></li>
                     <li><a href="{{ url_for('contact') }}">Contact</a></li>
                 </ul>
             </div>
@@ -40,7 +41,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Bright Minds Tutoring. All rights reserved.</p>
+            <p>&copy; 2024 BrightMind Tutoring. All rights reserved.</p>
         </div>
     </footer>
 </body>

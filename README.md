@@ -1,6 +1,6 @@
-# Bright Minds Tutoring Website
+# BrightMind Tutoring Website
 
-A production-ready Flask website for Bright Minds Tutoring business.
+A production-ready Flask website for BrightMind Tutoring business.
 
 ## Features
 
